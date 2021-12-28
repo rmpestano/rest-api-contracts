@@ -2,7 +2,9 @@
 
 image:https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml/badge.svg[Build Status, link=https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml]
 
-A sample application to demo https://spring.io/projects/spring-cloud-contract[Spring cloud contract].
+A sample application to demo https://spring.io/projects/spring-cloud-contract[Spring cloud contract]. 
+
+The code in this repo is used in https://rpestano.wordpress.com/2021/12/28/ensuring-rest-api-compatibility-with-spring-cloud-contract/[this blog post^].
 
 This repository contains a https://github.com/rmpestano/rest-api-contracts/tree/master/addition-api/[producer API] and a https://github.com/rmpestano/rest-api-contracts/tree/master/calculator-api[consumer API].
 
