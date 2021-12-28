@@ -1,0 +1,18 @@
+= Spring Cloud contracts example
+
+A sample application to demo Spring cloud contract.
+
+This repository contains a https://github.com/rmpestano/rest-api-contracts/addition-api[producer API] and a https://github.com/rmpestano/rest-api-contracts/calculator-api[consumer API].
+
+`Addition API` just sums 2 numbers:
+
+image::img/addition-api.png
+
+`Calculator API` is the client of Addition API.
+
+== Running
+
+The only prerequisite is `jdk 17` installed.
+
+`./mvnw package` on `rest-api-contracts` parent module should run contract tests defined in Calculator API.
+
