@@ -1,5 +1,7 @@
 = Spring Cloud contracts example
 
+image:https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml/badge.svg[Build Status, link=https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml]
+
 A sample application to demo Spring cloud contract.
 
 This repository contains a https://github.com/rmpestano/rest-api-contracts/addition-api[producer API] and a https://github.com/rmpestano/rest-api-contracts/calculator-api[consumer API].
