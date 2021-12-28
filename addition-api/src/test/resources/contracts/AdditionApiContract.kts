@@ -5,8 +5,15 @@ import org.springframework.cloud.contract.spec.ContractDsl.Companion.contract
 contract {
     name = "Addition API contract"
     request {
-        url = url("/api/addition/1/2")
+        url = url("/api/addition/")
         method = POST
+        headers {
+            header(CONTENT_TYPE, APPLICATION_JSON)
+        }
+        body = body(mapOf(
+                "op1" to 1,
+                "op2" to 2
+        ))
     }
     response {
         status = OK
@@ -14,7 +21,7 @@ contract {
             header(CONTENT_TYPE, APPLICATION_JSON)
         }
         body = body(mapOf(
-                "value" to 3
+                "result" to 3
         ))
     }
 }

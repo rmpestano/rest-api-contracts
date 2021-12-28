@@ -36,7 +36,7 @@ class CalculatorControllerTest {
 				.uri("/api/calculator/sum/1/2")
 				.exchange()
 				.expectStatus().isOk()
-				.expectBody().jsonPath("$.value").isEqualTo("42");
+				.expectBody().jsonPath("$.result").isEqualTo("42");
 	}
 
 

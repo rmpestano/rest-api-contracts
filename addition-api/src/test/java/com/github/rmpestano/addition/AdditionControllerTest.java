@@ -19,10 +19,11 @@ class AdditionControllerTest {
 	@Test
 	void shouldSum() {
 		webTestClient.post()
-				.uri("/api/addition/1/2")
+				.uri("/api/addition/")
+				.bodyValue(new AdditionController.Operator(1, 2))
 				.exchange()
 				.expectStatus().isOk()
-				.expectBody().jsonPath("$.value").isEqualTo("3");
+				.expectBody().jsonPath("$.result").isEqualTo("3");
 	}
 
 }

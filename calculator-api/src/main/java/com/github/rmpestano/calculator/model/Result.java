@@ -4,4 +4,4 @@ import lombok.NonNull;
 
 import java.math.BigDecimal;
 
-public record Result(@NonNull BigDecimal value){}
+public record Result(@NonNull BigDecimal result){}
