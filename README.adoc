@@ -10,6 +10,7 @@ This repository contains a https://github.com/rmpestano/rest-api-contracts/tree/
 
 image::img/addition-api.png[]
 
+
 `Calculator API` is the client of Addition API and uses `contract tests` to verify API changes *at build time*:
 
 image::img/calculator-api-contract-test.png[]
