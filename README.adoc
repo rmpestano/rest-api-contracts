@@ -1,12 +1,14 @@
 = Spring Cloud contracts example
 
-A sample application to demo Spring cloud contract.
+image:https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml/badge.svg[Build Status, link=https://github.com/rmpestano/rest-api-contracts/actions/workflows/ci.yml]
 
-This repository contains a https://github.com/rmpestano/rest-api-contracts/addition-api[producer API] and a https://github.com/rmpestano/rest-api-contracts/calculator-api[consumer API].
+A sample application to demo https://spring.io/projects/spring-cloud-contract[Spring cloud contract].
+
+This repository contains a https://github.com/rmpestano/rest-api-contracts/tree/master/addition-api/[producer API] and a https://github.com/rmpestano/rest-api-contracts/tree/master/calculator-api[consumer API].
 
 `Addition API` just sums 2 numbers:
 
-image::img/addition-api.png
+image::img/addition-api.png[]
 
 `Calculator API` is the client of Addition API.
 

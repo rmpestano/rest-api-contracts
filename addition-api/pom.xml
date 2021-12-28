@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.github.rmpestano</groupId>
-		<artifactId>consumer-driven-contracts</artifactId>
+		<artifactId>rest-api-contracts</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>addition-api</artifactId>
