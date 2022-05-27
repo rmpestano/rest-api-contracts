@@ -22,7 +22,7 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <spring-cloud.version>2021.0.0</spring-cloud.version>
+        <spring-cloud.version>2021.0.3</spring-cloud.version>
         <spring-cloud-contract.version>3.1.0</spring-cloud-contract.version>
         <mockito.version>4.2.0</mockito.version>
         <lombok.version>1.18.22</lombok.version>
